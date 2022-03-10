@@ -18,3 +18,7 @@ body{
     border-radius: 25px;
     overflow: hidden;
 }
+
+.bottom-img{
+    transform: translate(50%, -110%);
+}
