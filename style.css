@@ -1,7 +1,6 @@
 body{
     background: hsl(185, 75%, 39%);
     font-family:'Kumbh Sans', sans-serif ;
-    font-size: 18px;
 }
 
 .top-img{
@@ -17,8 +16,60 @@ body{
     margin: auto;
     border-radius: 25px;
     overflow: hidden;
+    z-index: 2;
+}
+
+
+
+.profile-pic{
+    display: block;
+    margin-left: 127px;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+.card{
+}
+
+.name{
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.age{
+    font-weight: lighter;
+    margin-left: -20px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: -30px;
 }
 
 .bottom-img{
     transform: translate(50%, -110%);
+}
+
+.social-metrics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.metric-numbers{
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 40px;
+}
+
+.metric-items{
+    font-size: 9px;
+    padding-right: 40px;
 }
