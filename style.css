@@ -27,20 +27,25 @@ body{
     margin-top: -50px;
     border-radius: 50%;
 }
-.card{
+.name-age-box{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .name{
-    justify-content: center;
-    align-content: center;
-    padding: 30px;
+    margin-top: 10px;
     font-weight: 700;
     font-size: 18px;
+    margin-left: 50px;
 }
 
 .age{
-    font-weight: lighter;
-    margin-left: -20px;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px;
 }
 
 .location{
@@ -48,7 +53,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    margin-top: -30px;
+    margin-top: -10px;
 }
 
 .bottom-img{
@@ -60,7 +65,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    margin: 20px;
+    margin-left: 30px;
 }
 
 .metric-numbers{
@@ -70,6 +75,7 @@ body{
 }
 
 .metric-items{
-    font-size: 9px;
+    font-size: 12px;
     padding-right: 40px;
+    padding-top: 5px;
 }
